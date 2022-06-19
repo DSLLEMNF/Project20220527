@@ -1,0 +1,78 @@
+
+element.style {
+}
+
+.Players__group:first-child {
+    margin-top: 0;
+}
+div {
+    display: block;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: #0b0e1e;
+}
+
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+.Players {
+    position: relative;
+    max-width: 1500px;
+    margin: 0 auto -50px;
+    background-color: #fff;
+}
+
+Players__group {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+
+PlayersPlayer__photo {
+    overflow: hidden;
+    width: 100%;
+    cursor: pointer;
+}
+
+.PlayersPlayer__underline {
+    height: 10px;
+    border-bottom: 2px solid #3db7e4;
+    transition: border-bottom-width .1s ease-in-out, border-bottom-color .1s ease-out;
+    margin-bottom: 12px;
+}
+
+.PlayersPlayer__country {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.PlayersPlayer__info {
+    width: 100%;
+    overflow: visible;
+}
+
+.PlayersPlayer__number {
+    display: inline-block;
+    float: right;
+    font-size: 48px;
+    font-weight: 300;
+    text-align: right;
+    vertical-align: top;
+}
+
+PlayersPlayer__name {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
